@@ -44,7 +44,7 @@ public class TestClass {
 	public void method3() {
 		loggerFile.info("*****launch  application 2*****");
 		finalProject.navigate().to("https://demoqa.com/");
-		finalProject.navigate().back();
+		finalProject.navi;
 		try {
 		Thread.sleep(7000);
 		}catch(InterruptedException exceptionName ) {
