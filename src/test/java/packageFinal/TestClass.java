@@ -38,6 +38,8 @@ public class TestClass {
 		loggerFile.info("*****launch application*****");
 		finalProject.get("https://www.saucedemo.com/");
 		finalProject.findElement(By.cssSelector("#user-name")).sendKeys("ThivakatTesting");	
+		
+		System.out.println("Testing with remote");
 	}
 	
 	@AfterClass
