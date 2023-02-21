@@ -42,14 +42,18 @@ public class TestClass extends Functions_Class {
 		finalProject.get("https://www.saucedemo.com/");
 		finalProject.findElement(By.cssSelector("#user-name")).sendKeys("Thivakar Testing");
 		finalProject.findElement(By.xpath("//input[@id='password']")).sendKeys("jfkhewhkwjk");
+		finalProject.findElement(By.cssSelector("#user-name")).sendKeys("ThivakatTesting");	
+		
+		System.out.println("Testing with remote");
+
 	}
 
 	@AfterClass
 	public void method3() {
 		loggerFile.info("*****launch  application 2*****");
 		finalProject.navigate().to("https://demoqa.com/");
-		finalProject.navigate().back();
 
+		finalProject.navigate().back();
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException exceptionName) {
