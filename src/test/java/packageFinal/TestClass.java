@@ -42,8 +42,6 @@ public class TestClass extends Functions_Class {
 		finalProject.get("https://www.saucedemo.com/");
 		finalProject.findElement(By.cssSelector("#user-name")).sendKeys("Thivakar Testing");
 		finalProject.findElement(By.xpath("//input[@id='password']")).sendKeys("jfkhewhkwjk");
-		finalProject.findElement(By.cssSelector("#user-name")).sendKeys("ThivakatTesting");	
-		
 		System.out.println("Testing with remote");
 
 	}
