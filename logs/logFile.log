@@ -1,0 +1,12 @@
+2023-02-20 19:11:04 INFO  TestClass:33 - *****launch chrome browser*****
+2023-02-20 19:11:08 INFO  TestClass:40 - *****launch application*****
+2023-02-20 19:11:10 INFO  TestClass:48 - *****launch  application 2*****
+2023-02-20 20:08:27 INFO  TestClass:33 - *****launch chrome browser*****
+2023-02-20 20:09:15 INFO  TestClass:40 - *****launch application*****
+2023-02-20 20:09:39 INFO  TestClass:48 - *****launch  application 2*****
+2023-02-20 20:19:28 INFO  TestClass:33 - *****launch chrome browser*****
+2023-02-20 20:19:33 INFO  TestClass:41 - *****launch application*****
+2023-02-20 20:19:35 INFO  TestClass:49 - *****launch  application 2*****
+2023-02-21 16:55:41 INFO  TestClass:33 - *****launch chrome browser*****
+2023-02-21 16:56:29 INFO  TestClass:41 - *****launch application*****
+2023-02-21 16:56:31 INFO  TestClass:53 - *****launch  application 2*****
